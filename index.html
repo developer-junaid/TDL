@@ -1,16 +1,23 @@
-<html>
-  <head>
-    <title>To Do List</title>
-    <link rel="stylesheet" href="./styles.css" type="text/css" />
-  </head>
-  <body>
-    <div id="myDIV" class="header">
-      <h2>My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title..." />
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
 
-    <ul id="myUL">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <title>To Do List</title>
+</head>
+
+<body>
+  <header id="myDIV" class="header">
+    <h1>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Enter the task" />
+      <button onclick="newElement()" class="addBtn">Add</button>
+  </header>
+
+  <main>
+    <ul id="myUL" role="list">
       <li>Hit the gym</li>
       <li class="checked">Pay bills</li>
       <li>Meet George</li>
@@ -18,7 +25,9 @@
       <li>Read a book</li>
       <li>Organize office</li>
     </ul>
+  </main>
 
-    <script src="./app.js"></script>
-  </body>
+  <script src="./app.js"></script>
+</body>
+
 </html>
