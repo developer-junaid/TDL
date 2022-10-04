@@ -105,7 +105,7 @@ ul li {
 }
 
 ul li:nth-child(even) {
-  background: #ffff53;
+  background: #f9f9a5;
 }
 
 ul li:hover {
