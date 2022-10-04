@@ -1,14 +1,18 @@
+
 <html>
   <head>
     <title>To Do List</title>
     <link rel="stylesheet" href="./styles.css" type="text/css" />
+	<link rel="icon" href="icon.jpg">
   </head>
   <body>
+<p >
+<div style="background-image: url('background.jpg');">
     <div id="myDIV" class="header">
       <h2>My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title..." />
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+      <input type="text" id="myInput" placeholder="What did you have planed?" />
+      <span onclick="newElement()" class="addBtn">Add Task</span>
+    </div>	
 
     <ul id="myUL">
       <li>Hit the gym</li>
@@ -18,7 +22,8 @@
       <li>Read a book</li>
       <li>Organize office</li>
     </ul>
-
+	</p>
+</div>
     <script src="./app.js"></script>
   </body>
 </html>
