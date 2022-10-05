@@ -37,7 +37,7 @@ ul li:hover {
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
+  background: rgb(0, 0, 0);
   color: #fff;
   text-decoration: line-through;
 }
@@ -71,7 +71,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #63ae35;
+  background-color: #000000;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -88,25 +88,25 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
-  border-radius: 0;
-  width: 75%;
+  border-radius: 5px;
+  width: 30%;
   padding: 10px;
-  float: left;
+  float: center;
   font-size: 16px;
 }
 
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
+  width: 10%;
+  background: #fdfdfd;
+  color: rgb(0, 0, 0);
+  float: center;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 5px;
 }
 
 .addBtn:hover {
