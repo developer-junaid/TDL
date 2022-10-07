@@ -4,10 +4,12 @@
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
   <body>
-    <div id="myDIV" class="header">
+    <div id="myDIV" class="header" onchange="newElement()">
       <h2>My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title..." />
-      <span onclick="newElement()" class="addBtn">Add</span>
+      <div class="button">
+        <input type="text" id="myInput" placeholder="Title..." />
+      <span class="addBtn">Add</span>
+      </div>
     </div>
 
     <ul id="myUL">

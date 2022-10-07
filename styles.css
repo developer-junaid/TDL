@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
 }
 
 /* Remove margins and padding from the list */
 ul {
-  margin: 0;
+  margin: auto;
+  max-width: 1000px;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -13,6 +19,7 @@ ul {
 ul li {
   cursor: pointer;
   position: relative;
+
   padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
@@ -71,10 +78,20 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #63ae35;
-  padding: 30px 40px;
+  background: linear-gradient(90deg, rgba(149,61,203,1) 19%, rgba(203,61,95,1) 41%, rgba(255,179,0,1) 77%);;
+  padding: 50px 0px;
   color: white;
   text-align: center;
+  padding-bottom:70px ;
+}
+
+.header h2{
+  padding: 20px 0;
+}
+
+div .button{
+  margin:auto;
+  max-width: 1000px;
 }
 
 /* Clear floats after the header */
@@ -86,15 +103,18 @@ ul li.checked::before {
 
 /* Style the input */
 input {
-  margin: 0;
   border: none;
   border-radius: 0;
   width: 75%;
   padding: 10px;
   float: left;
   font-size: 16px;
+  autofocus:true;
 }
-
+input:focus{
+  outline: none;
+  
+}
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
