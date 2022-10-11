@@ -8,6 +8,10 @@
 
 body {
   background-color: #1c1c5d;
+  border: 5pt solid white;
+  border-radius: 8pt;
+  padding: 15pt;
+  margin: 10pt;
 
 }
 #divunder{
@@ -91,7 +95,7 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #FF9494;
+  background-color: #f72525;
   color: white;
 }
 
@@ -102,10 +106,12 @@ ul li.checked::before {
   align-items: center;
   background-color: #0b0b0b;
   padding: 90px 40px;
-
+  
+  border: 5pt solid white;
+  border-radius: 5pt;
   color: white;
   text-align: center;
-  border-radius: 5px;
+  
 }
 
 
@@ -124,7 +130,7 @@ ul li.checked::before {
 #myInput {
   margin-left: 150px ;
   border: none;
-  border-radius: 0;
+  border-radius: 5pt;
   width: 45%;
   padding: 10px;
   float: left;
@@ -142,12 +148,13 @@ ul li.checked::before {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 5pt;
 }
 
 .addBtn:hover {
   background-color: rgb(47, 47, 108);
   color: #888;
+  
 }
 
 .container #myInput {
@@ -181,8 +188,6 @@ ul li.checked::before {
 
 
 }
-
-
 
 @keyframes animate {
 
