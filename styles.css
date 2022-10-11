@@ -5,7 +5,17 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins',sans-serif;
+
 }
+#divunder{
+  padding-top: 10px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #FFE3E1;
+}
+
 
 /* Remove margins and padding from the list */
 ul {
@@ -72,7 +82,7 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
+  background-color: #FF9494;
   color: white;
 }
 
@@ -80,6 +90,7 @@ ul li.checked::before {
 .header {
   background: linear-gradient(90deg, rgba(149,61,203,1) 19%, rgba(203,61,95,1) 41%, rgba(255,179,0,1) 77%);;
   padding: 50px 0px;
+
   color: white;
   text-align: center;
   padding-bottom:70px ;
@@ -103,9 +114,10 @@ div .button{
 
 /* Style the input */
 input {
+
   border: none;
   border-radius: 0;
-  width: 75%;
+  width: 45%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -118,7 +130,7 @@ input:focus{
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 5%;
   background: #d9d9d9;
   color: #555;
   float: left;
@@ -130,5 +142,5 @@ input:focus{
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: #FF9494;
 }
